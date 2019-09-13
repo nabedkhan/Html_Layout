@@ -1,0 +1,96 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	background-color: red;
+	overflow: hidden;
+}
+
+.logo{
+	margin: 10px;
+	display: inline-block;
+	float: left;
+	color: white;
+}
+
+.menu{
+	float: right;
+}
+.menu ul{
+	list-style: none;
+}
+
+.menu ul li{
+	padding-top: 25px;
+	display: inline-block;
+	padding-right: 100px;  
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+.banner{
+}
+.banner img{
+	width: 100%;
+}
+
+.wrapper{
+	background-color: wheat;
+	overflow: hidden;
+	padding: 20px 0px;
+}
+.service1{
+	background-color: green;
+	color: white;
+	float: left;
+	width: 32%;
+}
+.service2{
+	background-color: red;
+	color: white;
+	float: left;
+	width: 32%;
+	margin-left: 26px;
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+
+}
+p{
+	text-align: justify;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.service3{
+	background-color: blue;
+	color: white;
+	float: right;
+	width: 32%;
+}
+.wrapper_two{
+	overflow: hidden;
+	padding: 0px 0px;
+	background-color: lightblue;
+
+}
+.content, .sidebar{
+	width: 49%;
+	min-height: 50px;
+	float: left;
+	background-color: yellow;
+}
+.sidebar{
+	float: right;
+}
+.footer{
+	height: 50px;
+	background-color: green;
+}
